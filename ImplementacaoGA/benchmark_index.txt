@@ -1,0 +1,112 @@
+# BENCHMARK INDEX - TCC FLOWSHOP HIBRIDO
+# Format: ID instance_file permutation_file n_jobs n_stages machines seed
+# Base path: C:\Users\Firmiano\Desktop\TCC\ImplementacaoGA\Instancias
+
+# P: 10 jobs, 3 estágios, 30 instâncias
+1 I1.txt P1.txt 10 3 [2,2,2] 43
+2 I2.txt P2.txt 10 3 [2,2,2] 44
+3 I3.txt P3.txt 10 3 [2,2,2] 45
+4 I4.txt P4.txt 10 3 [2,2,2] 46
+5 I5.txt P5.txt 10 3 [2,2,2] 47
+6 I6.txt P6.txt 10 3 [2,2,2] 48
+7 I7.txt P7.txt 10 3 [2,2,2] 49
+8 I8.txt P8.txt 10 3 [2,2,2] 50
+9 I9.txt P9.txt 10 3 [2,2,2] 51
+10 I10.txt P10.txt 10 3 [2,2,2] 52
+11 I11.txt P11.txt 10 3 [2,2,2] 53
+12 I12.txt P12.txt 10 3 [2,2,2] 54
+13 I13.txt P13.txt 10 3 [2,2,2] 55
+14 I14.txt P14.txt 10 3 [2,2,2] 56
+15 I15.txt P15.txt 10 3 [2,2,2] 57
+16 I16.txt P16.txt 10 3 [2,2,2] 58
+17 I17.txt P17.txt 10 3 [2,2,2] 59
+18 I18.txt P18.txt 10 3 [2,2,2] 60
+19 I19.txt P19.txt 10 3 [2,2,2] 61
+20 I20.txt P20.txt 10 3 [2,2,2] 62
+21 I21.txt P21.txt 10 3 [2,2,2] 63
+22 I22.txt P22.txt 10 3 [2,2,2] 64
+23 I23.txt P23.txt 10 3 [2,2,2] 65
+24 I24.txt P24.txt 10 3 [2,2,2] 66
+25 I25.txt P25.txt 10 3 [2,2,2] 67
+26 I26.txt P26.txt 10 3 [2,2,2] 68
+27 I27.txt P27.txt 10 3 [2,2,2] 69
+28 I28.txt P28.txt 10 3 [2,2,2] 70
+29 I29.txt P29.txt 10 3 [2,2,2] 71
+30 I30.txt P30.txt 10 3 [2,2,2] 72
+
+# M: 20 jobs, 3 estágios, 30 instâncias
+31 I31.txt P31.txt 20 3 [3,3,2] 73
+32 I32.txt P32.txt 20 3 [3,3,2] 74
+33 I33.txt P33.txt 20 3 [3,3,2] 75
+34 I34.txt P34.txt 20 3 [3,3,2] 76
+35 I35.txt P35.txt 20 3 [3,3,2] 77
+36 I36.txt P36.txt 20 3 [3,3,2] 78
+37 I37.txt P37.txt 20 3 [3,3,2] 79
+38 I38.txt P38.txt 20 3 [3,3,2] 80
+39 I39.txt P39.txt 20 3 [3,3,2] 81
+40 I40.txt P40.txt 20 3 [3,3,2] 82
+41 I41.txt P41.txt 20 3 [3,3,2] 83
+42 I42.txt P42.txt 20 3 [3,3,2] 84
+43 I43.txt P43.txt 20 3 [3,3,2] 85
+44 I44.txt P44.txt 20 3 [3,3,2] 86
+45 I45.txt P45.txt 20 3 [3,3,2] 87
+46 I46.txt P46.txt 20 3 [3,3,2] 88
+47 I47.txt P47.txt 20 3 [3,3,2] 89
+48 I48.txt P48.txt 20 3 [3,3,2] 90
+49 I49.txt P49.txt 20 3 [3,3,2] 91
+50 I50.txt P50.txt 20 3 [3,3,2] 92
+51 I51.txt P51.txt 20 3 [3,3,2] 93
+52 I52.txt P52.txt 20 3 [3,3,2] 94
+53 I53.txt P53.txt 20 3 [3,3,2] 95
+54 I54.txt P54.txt 20 3 [3,3,2] 96
+55 I55.txt P55.txt 20 3 [3,3,2] 97
+56 I56.txt P56.txt 20 3 [3,3,2] 98
+57 I57.txt P57.txt 20 3 [3,3,2] 99
+58 I58.txt P58.txt 20 3 [3,3,2] 100
+59 I59.txt P59.txt 20 3 [3,3,2] 101
+60 I60.txt P60.txt 20 3 [3,3,2] 102
+
+# G: 30 jobs, 4 estágios, 20 instâncias
+61 I61.txt P61.txt 30 4 [2,3,3,2] 103
+62 I62.txt P62.txt 30 4 [2,3,3,2] 104
+63 I63.txt P63.txt 30 4 [2,3,3,2] 105
+64 I64.txt P64.txt 30 4 [2,3,3,2] 106
+65 I65.txt P65.txt 30 4 [2,3,3,2] 107
+66 I66.txt P66.txt 30 4 [2,3,3,2] 108
+67 I67.txt P67.txt 30 4 [2,3,3,2] 109
+68 I68.txt P68.txt 30 4 [2,3,3,2] 110
+69 I69.txt P69.txt 30 4 [2,3,3,2] 111
+70 I70.txt P70.txt 30 4 [2,3,3,2] 112
+71 I71.txt P71.txt 30 4 [2,3,3,2] 113
+72 I72.txt P72.txt 30 4 [2,3,3,2] 114
+73 I73.txt P73.txt 30 4 [2,3,3,2] 115
+74 I74.txt P74.txt 30 4 [2,3,3,2] 116
+75 I75.txt P75.txt 30 4 [2,3,3,2] 117
+76 I76.txt P76.txt 30 4 [2,3,3,2] 118
+77 I77.txt P77.txt 30 4 [2,3,3,2] 119
+78 I78.txt P78.txt 30 4 [2,3,3,2] 120
+79 I79.txt P79.txt 30 4 [2,3,3,2] 121
+80 I80.txt P80.txt 30 4 [2,3,3,2] 122
+
+# XG: 50 jobs, 5 estágios, 20 instâncias
+81 I81.txt P81.txt 50 5 [3,4,3,4,2] 123
+82 I82.txt P82.txt 50 5 [3,4,3,4,2] 124
+83 I83.txt P83.txt 50 5 [3,4,3,4,2] 125
+84 I84.txt P84.txt 50 5 [3,4,3,4,2] 126
+85 I85.txt P85.txt 50 5 [3,4,3,4,2] 127
+86 I86.txt P86.txt 50 5 [3,4,3,4,2] 128
+87 I87.txt P87.txt 50 5 [3,4,3,4,2] 129
+88 I88.txt P88.txt 50 5 [3,4,3,4,2] 130
+89 I89.txt P89.txt 50 5 [3,4,3,4,2] 131
+90 I90.txt P90.txt 50 5 [3,4,3,4,2] 132
+91 I91.txt P91.txt 50 5 [3,4,3,4,2] 133
+92 I92.txt P92.txt 50 5 [3,4,3,4,2] 134
+93 I93.txt P93.txt 50 5 [3,4,3,4,2] 135
+94 I94.txt P94.txt 50 5 [3,4,3,4,2] 136
+95 I95.txt P95.txt 50 5 [3,4,3,4,2] 137
+96 I96.txt P96.txt 50 5 [3,4,3,4,2] 138
+97 I97.txt P97.txt 50 5 [3,4,3,4,2] 139
+98 I98.txt P98.txt 50 5 [3,4,3,4,2] 140
+99 I99.txt P99.txt 50 5 [3,4,3,4,2] 141
+100 I100.txt P100.txt 50 5 [3,4,3,4,2] 142
+
