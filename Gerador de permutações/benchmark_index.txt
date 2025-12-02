@@ -1,0 +1,32 @@
+# BENCHMARK INDEX
+# Format: instance_file permutation_file n_jobs n_stages seed
+# Total instances: 20
+
+# SMALL INSTANCES
+instance_small_01.txt permutation_small_01.txt 10 3 43
+instance_small_02.txt permutation_small_02.txt 10 3 44
+instance_small_03.txt permutation_small_03.txt 10 3 45
+instance_small_04.txt permutation_small_04.txt 10 3 46
+instance_small_05.txt permutation_small_05.txt 10 3 47
+
+# MEDIUM INSTANCES
+instance_medium_01.txt permutation_medium_01.txt 20 3 48
+instance_medium_02.txt permutation_medium_02.txt 20 3 49
+instance_medium_03.txt permutation_medium_03.txt 20 3 50
+instance_medium_04.txt permutation_medium_04.txt 20 3 51
+instance_medium_05.txt permutation_medium_05.txt 20 3 52
+
+# LARGE INSTANCES
+instance_large_01.txt permutation_large_01.txt 30 4 53
+instance_large_02.txt permutation_large_02.txt 30 4 54
+instance_large_03.txt permutation_large_03.txt 30 4 55
+instance_large_04.txt permutation_large_04.txt 30 4 56
+instance_large_05.txt permutation_large_05.txt 30 4 57
+
+# XLARGE INSTANCES
+instance_xlarge_01.txt permutation_xlarge_01.txt 50 5 58
+instance_xlarge_02.txt permutation_xlarge_02.txt 50 5 59
+instance_xlarge_03.txt permutation_xlarge_03.txt 50 5 60
+instance_xlarge_04.txt permutation_xlarge_04.txt 50 5 61
+instance_xlarge_05.txt permutation_xlarge_05.txt 50 5 62
+

@@ -1,0 +1,99 @@
+# Presets de Configuração PSO
+
+## Preset 1: Balanceado (Padrão)
+Population: 100
+Generations: 500
+c1: 0.2
+c2: 0.2
+MutationProb: 0.9
+Crossover: PTL (4)
+Mutation: MultiInsert (4)
+Descrição: Bom balanço entre exploração e exploração.
+
+## Preset 2: Exploração Agressiva
+Population: 150
+Generations: 1000
+c1: 0.1
+c2: 0.1
+MutationProb: 0.95
+Crossover: PTL (4)
+Mutation: MultiInsert (4)
+Descrição: Prioritiza busca diversificada. Melhor para problemas complexos.
+
+## Preset 3: Exploração Local
+Population: 50
+Generations: 300
+c1: 0.5
+c2: 0.5
+MutationProb: 0.7
+Crossover: PMX (3)
+Mutation: Insert (2)
+Descrição: Rápido e focado. Para instâncias pequenas.
+
+## Preset 4: Convergência Rápida
+Population: 200
+Generations: 300
+c1: 0.3
+c2: 0.3
+MutationProb: 0.5
+Crossover: PTL (4)
+Mutation: MultiInsert (4)
+Descrição: Grande população com ILS frequente garante convergência rápida.
+
+## Preset 5: Low Resource
+Population: 20
+Generations: 100
+c1: 0.2
+c2: 0.2
+MutationProb: 0.8
+Crossover: OP (1)
+Mutation: Swap (1)
+Descrição: Mínimo de recursos. Útil para hardware limitado.
+
+## Variações dos Operadores
+
+### Crossover Types
+1 = Order Crossover (OC) - Preserva ordem relativa
+2 = Two-Point Crossover (TP) - Simples e rápido
+3 = PMX Crossover - Mantém mapeamento
+4 = PTL Crossover - Position-based com diversidade
+
+### Mutation Types
+1 = Swap - Troca dois elementos
+2 = Insert - Move um elemento
+3 = Multiple Swap - Múltiplas trocas
+4 = Multiple Insert - Múltiplas inserções (RECOMENDADO)
+
+## Recomendações
+
+Para problemas com 10-20 jobs:
+  → Usar Preset 3 (exploração local) ou Preset 5 (teste rápido)
+
+Para problemas com 20-50 jobs:
+  → Usar Preset 1 (balanceado) - padrão
+
+Para problemas com 50-100 jobs:
+  → Usar Preset 2 (exploração agressiva)
+
+Para problemas com 100+ jobs:
+  → Usar Preset 4 (convergência rápida) com população aumentada
+
+## Como Usar Presets
+
+Editar main_pso.cpp na função main() e alterar:
+
+```cpp
+int populationSize = 100;    // Alterar aqui
+int numGenerations = 500;     // Alterar aqui
+double c1 = 0.2;
+double c2 = 0.2;
+double mutationProb = 0.9;
+int crossoverType = 4;
+int mutationOperator = 4;
+```
+
+Depois recompilar:
+```bash
+cmake --build .
+./scheduling_pso I1.txt output.csv
+```
